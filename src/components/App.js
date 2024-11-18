@@ -8,7 +8,9 @@ const App = () => {
   return (
     <div className="parent">
       <h1>Parent Component</h1>
+      <div>
       <Child1 setShowModal={setShowModal} />
+      </div>
       {showModal && <Modal />}
     </div>
   );
